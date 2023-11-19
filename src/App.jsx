@@ -33,7 +33,7 @@ function App() {
             <div className="message-img">
                 <h3>Enter your prompt here! {"(ex: 'Going to skateboard')"}</h3>
                 <input placeholder='Enter your wikihow here!' value={input} onChange={(event) => {setInput(event.target.value)}}></input>
-                <button onClick={callAPI}>Call API</button>
+                <button className="submit-btn" onClick={callAPI}>Call API</button>
                 <p>{text}</p>
             </div>
         </div>
