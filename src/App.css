@@ -1,0 +1,80 @@
+.label {
+    top: 300px;
+    right: 13%;
+    height: 50px;
+    width: 301px;
+    position: absolute;
+}
+
+.label .welcome {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.app-container {
+    position: relative;
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-image img {
+    width: 798px;
+    height: 960px;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+
+.title-img {
+    position: fixed;
+    top: 53%;
+    left: 13%;
+    transform: translateY(-50%);
+}
+
+.message-img {
+    height: auto;
+    display: block;
+    margin-top: 30px;
+    height: 50px;
+    width: 550px;
+    position: absolute;
+}
+
+:root {
+    --bg-icon: rgba(248, 248, 250, 1);
+    --black: rgba(20, 20, 20, 1);
+    --button-font-family: "Lato-ExtraBold", Helvetica;
+    --button-font-size: 12px;
+    --button-font-style: normal;
+    --button-font-weight: 800;
+    --button-letter-spacing: 0px;
+    --button-line-height: normal;
+    --header-1-font-family: "Lato-Bold", Helvetica;
+    --header-1-font-size: 14px;
+    --header-1-font-style: normal;
+    --header-1-font-weight: 700;
+    --header-1-letter-spacing: 0px;
+    --header-1-line-height: normal;
+    --simblue: rgba(44, 45, 91, 1);
+    --simdarkblue: rgba(0, 46, 84, 1);
+    --simorange: rgba(246, 115, 102, 1);
+    --stroke: rgba(243, 244, 246, 1);
+    --text-1: rgba(79, 79, 79, 1);
+    --text-2: rgba(149, 147, 160, 1);
+    --text-3: rgba(187, 187, 187, 1);
+    --white: rgba(255, 255, 255, 1);
+}
