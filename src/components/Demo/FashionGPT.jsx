@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { baseAPIURL } from "../../constants/constants";
 import {useAuth0} from "@auth0/auth0-react";
+import './FashionGPT.css'
 
 const FashionGPT = () => {
   const [userInput, setUserInput] = useState("");
