@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import LandingPage from './components/LandingPage/landingPage.jsx';
+
 import {
     createBrowserRouter,
     RouterProvider,
@@ -16,7 +17,7 @@ import Prompt from './components/Prompt/Prompt'
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Auth0ProviderWithHistory><LandingPage></LandingPage></Auth0ProviderWithHistory>
+        element: <Auth0ProviderWithHistory><App></App></Auth0ProviderWithHistory>
     },
     {
         path: "/prompt",

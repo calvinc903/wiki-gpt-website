@@ -7,10 +7,10 @@ function App() {
     if (isLoading) return <div>Loading...</div>;
     if (error) return <div>{error.message}</div>;
 
-    if (user) {
+    if (true) {
         return (
             <div>
-                <h1>Welcome {user.name}!</h1>
+                <h1>Welcome!</h1>
                 <br />
                 <h3>Enter your prompt here! {"(ex: 'Going to skateboard')"}</h3>
                 <FashionGPT />
