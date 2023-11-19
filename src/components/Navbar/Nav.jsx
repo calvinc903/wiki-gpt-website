@@ -14,7 +14,7 @@ function Nav() {
       <div className="navbar">
         <ul style={{display: "flex"}}>
             <div className="title">
-                <li><a href="/">FashionGPT</a></li>
+                <li><a href="/">WikiGPT</a></li>
                 <li><a href="/prompt">Generate</a></li>
                 <li><a href="/community">Community</a></li>
             </div>
