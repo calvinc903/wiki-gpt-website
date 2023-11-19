@@ -54,6 +54,23 @@
     position: absolute;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&display=swap');
+
+.submit-btn {
+  font-family: 'Anek Malayalam', sans-serif;
+  background: rgba(79, 179, 218, 0.866);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  min-width: 100px;
+  min-height: 25px;
+  cursor: pointer;
+  outline: none;
+}
+
 :root {
     --bg-icon: rgba(248, 248, 250, 1);
     --black: rgba(20, 20, 20, 1);
