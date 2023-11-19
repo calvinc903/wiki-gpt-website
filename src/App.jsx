@@ -1,13 +1,15 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import { useAuth0 } from "@auth0/auth0-react";
 import OpenAI from "openai";
 const API_key = "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";
-import FashionGPT from "./components/Demo/FashionGPT";
 import welcomeImg from './welcome.png';
 import bgImg from './bg.png';
 import titleImg from './WikiHowGPT.png';
 
+const openai = new OpenAI({
+  dangerouslyAllowBrowser : 'true',
+  apiKey : API_key,
+});
 
 function App() {
   const [text, setText] = useState("");
