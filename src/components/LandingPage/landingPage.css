@@ -1,0 +1,68 @@
+#root {
+    width: 100%;
+    
+}
+
+.LandingContainer {
+    background-color: #6E1EAD;;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.LandingPageTitle {
+    font-weight: 500;
+    color: white;
+    font-size: 80px;
+    font-style: normal;
+    text-align: center;
+    font-family: Montserrat;
+    letter-spacing: -0.24px;
+    background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 141.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.LandingPageSubheading {
+    display: flex;
+    width: 378px;
+    height: 14px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 25px;
+    flex-shrink: 0;
+    font-style: italic;
+    color: white;
+
+}
+
+
+.Button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    border-radius: 14px;
+    width: 50%;
+    font-weight: bold;
+    justify-content: right;
+}
+
+.LoginButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-grow: 1;
+}
